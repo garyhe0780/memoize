@@ -1,0 +1,36 @@
+{
+  "name": "memoize",
+  "version": "1.0.0",
+  "description": "memoize javascript function",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env BABEL_ENV=production webpack --config webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukari/memoize.git"
+  },
+  "keywords": [
+    "memoize",
+    "javascript",
+    "cache"
+  ],
+  "author": "muromi ukari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukari/memoize/issues"
+  },
+  "homepage": "https://github.com/ukari/memoize#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-constant-elements": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "webpack": "^3.10.0"
+  }
+}
